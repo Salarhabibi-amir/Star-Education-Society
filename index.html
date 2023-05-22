@@ -5,14 +5,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        @import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+    </style>
+
     <title>Star Education Society</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- top navbar -->
+    <header class="container-fluid bg-dark top-novbar">
+        <div class="container text-end">
+            <a href=""><i class="fa fa-facebook link-light text-decoration-none p-2"></i></a>
+            <a href=""><i class="fa fa-twitter link-light text-decoration-none p-2"></i></a>
+            <a href="" class="link-light text-decoration-none p-2">Logout</a>
+            <a href="" class="link-light text-decoration-none p-2"> Mypage</a>
+            <a href="" class="link-light text-decoration-none p-2">English</a>
+        </div>
+    </header>
 
+    <!-- Navbar -->
+
+    <nav class="container-fluid">
+        <div class="container desktop">
+            <div class="row fs-6">
+                <div class="col-md-3 p-3 ">
+                    <a class=" link-dark fs-4 text-decoration-none" href="index.html"><i class="fa fa-star text-primary"></i><i class="text-danger">Edu </i><b>Society</b></a>
+                </div>
+                <div class="col-md-6  p-3 text-end ">
+                    <a class=" link-danger p-2 text-decoration-none " href="about.html">About</a>
+                    <a class=" link-secondary p-2 text-decoration-none" href="#">Program</a>
+                    <a class=" link-secondary p-2 text-decoration-none" href="#">Join</a>
+                    <a class=" link-secondary p-2 text-decoration-none" href="#">Sponsor</a>
+                    <a class=" link-secondary p-2 text-decoration-none" href="#">News</a>
+                </div>
+                <div class="col-md-3 p-3 text-end">
+                    <a class="link-danger border border-4 border-danger p-2  text-decoration-none" href="#"><i class="fa fa-star text-primary"></i><i>Edu </i><b>Society</b></a>
+                </div>
+            </div>
+
+            </ul>
+        </div>
+        <div class="container-fluid Humberger p-3 bg-light">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-bars fs-2 "></i></button>
+        </div>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog mx-0 my-0">
+                <div class="modal-content bg-light ">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <a href="index.html" class="text-decoration-none">
+                            <h4 class="modal-title text-dark fs-2 fw-bold"><i class="fa fa-star text-primary"></i><b class="text-danger">Edu</b><i>Society</i>
+                            </h4>
+                        </a>
+
+                        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"></button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <ul class="list-unstyled ">
+                            <li><a href="about.html" class="link-dark text-decoration-none fs-5">About</a></li>
+                            <li><a href="#" class="link-dark text-decoration-none fs-5">Program</a></li>
+                            <li><a href="#" class="link-dark text-decoration-none fs-5">Join</a></li>
+                            <li><a href="#" class="link-dark text-decoration-none fs-5">Sponsor</a></li>
+                            <li><a href="#" class="link-dark text-decoration-none fs-5">News</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- Headline section -->
+    <section class="container-fluid bg-light">
+
+        <div class="container ">
+            <br><br>
+            <h3 class="text-danger py-2">"Hello Sharing World!"</h3>
+            <h1 class=" fw-red">STAR EDUCATIONAL <br>SOCEITY 2023</h1>
+            <div class=" bg-light border border-2 border-white p-3 ">
+                <p>
+                    Education refers to ‘the process of providing and receiving instructions, through academic and scholastic efforts.’ Education is a process that begins at home. It differentiates humans from other living things.
+                </p>
+            </div>
+            <br>
+            <b class="fs-2">2015.10.15(THU) ~ 16(FRI)</b>
+            <br>
+            <p class="fs-4">@ National Museum of Korea, Art Center Nabi and more</p>
+        </div>
+    </section>
+    <!-- Main Program -->
+    <section class="container-fluid main-program">
+        <div class="container text-white">
+            <br><br>
+            <div class="row text-center">
+                <div class="col">
+                    <h4>Main Program</h4>
+                    <hr id="hr">
+                </div>
+            </div>
+            <div class="program">
+                <div class="program-item text-center bg-cutome p-2">
+                    <div class="icon"><img src="assets/images/discourse.png" alt=""></div>
+                    <div class="title">
+                        <h5 class="text-danger">Reading</h5>
+                    </div>
+                    <div class="disc">
+                        <p>Improve your reading skill with reading articals, news, and etc..</p>
+                    </div>
+                </div>
+                <div class="program-item text-center bg-cutome p-2">
+                    <div class="icon"><img src="assets/images/galery.png" alt=""></div>
+                    <div class="title">
+                        <h5 class="text-danger">Writing</h5>
+                    </div>
+                    <div class="disc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="program-item text-center bg-cutome p-2">
+                    <div class="icon"><img src="assets/images/discoursew.png" alt=""></div>
+                    <div class="title">
+                        <h5 class="text-danger">Listening</h5>
+                    </div>
+                    <div class="disc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="program-item text-center bg-cutome p-2">
+                    <div class="icon"><img src="assets/images/discoursew.png" alt=""></div>
+                    <div class="title">
+                        <h5 class="text-danger">Speaking</h5>
+                    </div>
+                    <div class="disc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="program-item text-center bg-cutome p-2">
+                    <div class="icon"><img src="assets/images/discourse.png" alt=""></div>
+                    <div class="title">
+                        <h5 class="text-danger">Grammar</h5>
+                    </div>
+                    <div class="disc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="row text-center  ">
+                <div class="col Joinlink">
+                    <a href="#" class="link-light fs-6 ">SEE  THE  WHOLE  PROGRAM</a>
+                </div>
+                <div class="col Joinbtn">
+                    <button class="btn text-light p-4">Join Star Education Society</button>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </section>
+    <!--  -->
     <script src="script.js"></script>
 </body>
 

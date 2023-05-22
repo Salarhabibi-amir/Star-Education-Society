@@ -80,6 +80,36 @@
     background-color: red;
 }
 
+.bg-partner {
+    background-color: #41464b;
+}
+
+.bg-partner a {
+    padding: 20px;
+    margin: 10px;
+}
+
+.bg-partner img {
+    width: 130px;
+    padding: 20px;
+}
+
+.pastPicture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#past-image1 {
+    background-image: url("assets/Image/Star.jpeg");
+    height: 150px;
+}
+
+#past-image2 {
+    background-image: url("assets/Image/staredu.jpg");
+    height: 150px;
+}
+
 @media (min-width: 769px) {
     .Humberger {
         display: none;

@@ -28,7 +28,7 @@ I have created this project for an English language education center based in Ka
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://w3cshcool.com/">HTML , CSS & JavaScript</a></li>
+    <li><a href="https://w3cshcool.com/">HTML , CSS,Bootstrap & JavaScript</a></li>
   </ul>
 </details>
 

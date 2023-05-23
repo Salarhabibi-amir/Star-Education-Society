@@ -17,9 +17,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mobile First Project] <a name="about-project"></a>
+# 📖 [Star Education Soceity] <a name="about-project"></a>
 
-I am starting this project to Creat my own Portfolio.
+I have created this project for an English language education center based in Kabul, Afghanistan.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -28,7 +28,7 @@ I am starting this project to Creat my own Portfolio.
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://microverse.com/">HTML , CSS & JavaScript</a></li>
+    <li><a href="https://w3cshcool.com/">HTML , CSS & JavaScript</a></li>
   </ul>
 </details>
 
@@ -80,14 +80,6 @@ To run the project, execute the following command:
 - LinkedIn: [Amir Hussain Habibi](https://www.linkedin.com/in/amir-hussain-habibi-153688185/)
 - Portfolio:[ salarhabibi-amir ](https://salarhabibi-amir.github.io/)
 
-👤 **Author2**
-
-- GitHub: [Roathy](https://github.com/Roathy)
-
-👤 **lRebornsl**
-
-- GitHub: [lRebornsl](https://github.com/lRebornsl)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -95,8 +87,8 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Used mobile first approach]**
-- [ ] **[Used CSS animation]**
-- [ ] **[Used CSS transition]**
+- [ ] **[Used CSS flex and grid]**
+- [ ] **[Created some section dynamicly]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

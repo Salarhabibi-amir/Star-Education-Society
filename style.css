@@ -1,261 +1,278 @@
 * {
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 .black-costumeBC {
-    background-color: #272a31;
+  background-color: #272a31;
 }
 
 .red-costumeBC {
-    background-color: #ec5242;
+  background-color: #ec5242;
 }
 
 .white-costumeBC {
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 .black-costumeC {
-    color: #272a31;
+  color: #272a31;
 }
 
 .red-costumeC {
-    color: #ec5242;
+  color: #ec5242;
 }
 
 .white-costumeC {
-    color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 .white-border {
-    border: 2px solid #d3d3d3;
+  border: 2px solid #d3d3d3;
 }
 
 .modal-dialog {
-    height: 100%;
+  height: 100%;
 }
 
 .modal-body ul li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .desktop {
-    display: none;
+  display: none;
 }
 
 .top-novbar {
-    display: none;
+  display: none;
 }
 
 .fw-red {
-    color: red;
+  color: red;
 }
 
 #hr {
-    width: 50px;
-    height: 2px;
-    background-color: red;
-    color: red;
-    margin: 10px auto;
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  color: red;
+  margin: 10px auto;
 }
 
 #hrT {
-    width: 30px;
-    height: 3px;
-    color: #41464b;
+  width: 30px;
+  height: 3px;
+  color: #41464b;
 }
 
 .main-program {
-    background-image: url('assets/images/backgrounds2.png');
+  background-image: url('assets/images/backgrounds2.png');
 }
 
 .program {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .program-item {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .program-item:hover {
-    border: 1px solid #fff;
-    cursor: pointer;
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .bg-cutome {
-    background-color: rgb(124 124 124 / 50%);
+  background-color: rgb(124 124 124 / 50%);
 }
 
 .program-item img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .icon,
 .title {
-    flex: 1;
+  flex: 1;
 }
 
 .disc {
-    flex: 2;
+  flex: 2;
 }
 
 .Joinlink {
-    display: none;
+  display: none;
 }
 
 .Joinbtn {
-    display: block;
+  display: block;
 }
 
 .Joinbtn button {
-    background-color: red;
+  background-color: red;
 }
 
 .bg-partner {
-    background-color: #41464b;
+  background-color: #41464b;
 }
 
 .bg-partner a {
-    padding: 20px;
-    margin: 10px;
+  padding: 20px;
+  margin: 10px;
 }
 
 .bg-partner img {
-    width: 130px;
-    padding: 20px;
+  width: 130px;
+  padding: 20px;
 }
 
 .pastPicture {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #past-image1 {
-    background-image: url("assets/Image/Star.jpeg");
-    height: 150px;
-    width: 90%;
+  background-image: url("assets/Image/Star.jpeg");
+  height: 150px;
+  width: 90%;
 }
 
 #past-image2 {
-    background-image: url("assets/Image/staredu.jpg");
-    height: 150px;
-    width: 90%;
+  background-image: url("assets/Image/staredu.jpg");
+  height: 150px;
+  width: 90%;
 }
 
 .teacher-layout {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .teacher-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.teacher-img {
+  background-image: url('assets/images/black-white.png');
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  flex: 1;
+}
+
+.teacher-img img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.hideMydiv {
+  display: none;
+}
+
+.hideMydiv2 {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .Humberger {
+    display: none;
+  }
+
+  .Joinlink {
+    display: block;
+  }
+
+  .Joinbtn {
+    display: none;
+  }
+
+  .bg-red {
+    background-color: red;
+  }
+
+  .top-novbar {
+    display: block;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .program {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .program-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .teacher-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .teacher-item {
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.teacher-img {
-    background-image: url('assets/images/black-white.png');
-    background-size: 60px 60px;
-    background-repeat: no-repeat;
-    flex: 1;
-}
+  .pastPicture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-.teacher-img img {
-    width: 150px;
+  #past-image1 {
+    background-image: url("assets/Image/Star.jpeg");
     height: 150px;
-    padding: 10px;
-}
+    width: 46%;
+  }
 
-.hideMydiv {
-    display: none;
-}
+  #past-image2 {
+    background-image: url("assets/Image/staredu.jpg");
+    height: 150px;
+    width: 46%;
+  }
 
-.hideMydiv2 {
-    display: none;
-}
+  footer {
+    background-color: #212529;
+  }
 
-@media (min-width: 769px) {
-    .Humberger {
-        display: none;
-    }
-    .Joinlink {
-        display: block;
-    }
-    .Joinbtn {
-        display: none;
-    }
-    .bg-red {
-        background-color: red;
-    }
-    .top-novbar {
-        display: block;
-    }
-    .desktop {
-        display: block;
-    }
-    .program {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-    }
-    .program-item {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .teacher-layout {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .teacher-item {
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .pastPicture {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    #past-image1 {
-        background-image: url("assets/Image/Star.jpeg");
-        height: 150px;
-        width: 46%;
-    }
-    #past-image2 {
-        background-image: url("assets/Image/staredu.jpg");
-        height: 150px;
-        width: 46%;
-    }
-    footer {
-        background-color: #212529;
-    }
-    footer a,
-    h5,
-    #Footer {
-        color: white;
-    }
-    .hideMydiv {
-        display: flex;
-        flex-direction: row;
-    }
-    .hideMydiv2 {
-        display: flex;
-        flex-direction: row;
-    }
-    .mydiv {
-        display: flex;
-        flex-direction: row;
-    }
+  footer a,
+  h5,
+  #Footer {
+    color: white;
+  }
+
+  .hideMydiv {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hideMydiv2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mydiv {
+    display: flex;
+    flex-direction: row;
+  }
 }

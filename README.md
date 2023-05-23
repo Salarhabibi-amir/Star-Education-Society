@@ -105,7 +105,7 @@ Pleas review my project and make me happy with your nice feedbacks.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank from Microvers Because of preparing a great envirnment for everyone in all over the globe.
+I would like to thank you  [Cindy Shin](https://www.behance.net/adagio07) who prepared the design for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 📝 License <a name="license"></a>

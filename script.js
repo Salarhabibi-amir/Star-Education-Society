@@ -41,7 +41,7 @@ const data = [{
   alt: 'Laila Ahmadi picture',
 },
 ];
-const featureSection = document.querySelector('.feacherSpeakers');
+const featureSection = document.querySelector('feacherSpeakers');
 const featureContainer = document.createElement('div');
 featureContainer.innerHTML = `
 <div class="container">
